@@ -13,12 +13,20 @@
     border-bottom-right-radius: 6px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: #aaa5ff;
+    background-color: #404041;
     position: relative;
     overflow: hidden;
 }
 .skill{
-    line-height: 3.5vw;
+    line-height: 1.5vw;
+}
+.skills-heading {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+.skills-text-subtitle {
+    font-size: 16px;
+    margin-top: 0px;
 }
 .skill-bars{
     font-size: 28px;

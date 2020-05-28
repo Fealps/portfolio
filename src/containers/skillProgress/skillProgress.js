@@ -11,6 +11,7 @@ export default function StackProgress() {
 
                 <div className="skills-bar">
                     <h1 className="skills-heading">Proficiency</h1>
+                    <p className="subTitle skills-text-subtitle">{techStack.subTitle}</p>
                     {techStack.experience.map((exp) => {
                         const progressStyle = {
                             width: exp.progressPercentage

@@ -26,6 +26,12 @@
 @media (max-width: 1380px) {
     .experience-heading {
         font-size: 40px;
+        margin-bottom: 0px;
+    }
+    .experience-text-subtitle {
+        font-size: 16px;
+        margin-top: 12px;
+        margin-bottom: 30px;
     }
 }
 
@@ -33,5 +39,12 @@
     .experience-heading {
         font-size: 30px;
         text-align: center;
+        margin-bottom: 0px;
+    }
+    .experience-text-subtitle {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 18px;
     }
 }
