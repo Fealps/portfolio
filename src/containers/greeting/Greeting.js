@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
+import Lang from "../LangButton/Lang"
 
 export default function Greeting() {
   return (
@@ -22,8 +23,8 @@ export default function Greeting() {
             <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
             <SocialMedia />
             <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
+              <Button text={greeting.buttonContact}  href="#contact" />
+              <Button text={greeting.buttonResume} newTab={true} href={greeting.resumeLink} />
             </div>
           </div>
         </div>

@@ -1,0 +1,16 @@
+#langButton {
+  align-content: center;
+  border: none;
+  outline: none;
+  background-color: #2c2b36;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#langButton:hover {
+  background-color: rgb(95, 95, 95);
+  transition: all ease-in-out 0.2s;
+}

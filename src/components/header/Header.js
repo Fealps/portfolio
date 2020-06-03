@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import {Fade} from "react-reveal";
+import Lang from "../../containers/LangButton/Lang";
 import {greeting, workExperiences} from "../../portfolio";
 
 function Header() {
@@ -20,20 +21,23 @@ function Header() {
         </label>
         <ul className="menu">
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#skills">{greeting.headerSkills}</a>
           </li>
           { exp === true &&
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">{greeting.headerExperiences}</a>
             </li>
           }
           <li>
-            <a href="#opensource">Open Source</a>
+            <a href="#opensource">{greeting.headerOpenSource}</a>
           </li>
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">{greeting.headerContactMe}</a>
           </li>
         </ul>
+        <div id="lang-button">
+          <Lang/>
+        </div>
       </header>
     </div>
     </Fade>

@@ -14,7 +14,7 @@ export default function GithubProfileCard({prof}) {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
-        <h1 className="prof-title">Reach Out to me!</h1>
+        <h1 className="prof-title">{contactInfo.shout}</h1>
       <div className="row">
         <div className="main-content-profile">
             <div className="blog-header">
@@ -28,7 +28,7 @@ export default function GithubProfileCard({prof}) {
               </span>
             </div>}
             <div className="opp-div">
-              <span className="desc-prof">Open for opportunities: {prof.hireable}</span>
+              <span className="desc-prof">{contactInfo.oportunity} {prof.hireable}</span>
             </div>
             <SocialMedia/>
           </div>
