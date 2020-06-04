@@ -55,7 +55,7 @@ var skillsSection = {};
 if(currentLang == 'pt-br'){
     skillsSection = {
       title: "O quê eu faço",
-      subTitle: "Um desenvolvedor plano full stack procurando por xp para subir de nível",
+      subTitle: "Um desenvolvedor pleno full stack procurando por xp para subir de nível",
       skills: [
         emoji("⚡ Desenvolvo aplicações interativas de Front end e interface de usuario para suas aplicações web"),
         emoji("⚡ Progressive Web Applications ( PWA )"),
@@ -153,7 +153,7 @@ if(currentLang == 'pt-br'){
   techStack = {
     title: "Proficiências",
     viewSkillBars: true, //Set it to true to show Proficiency Section
-    subTitle: "+10 arcana, -1 atletismo, +10 investigação, +8 performace",
+    subTitle: "+10 arcana, -1 atletismo, +10 investigação, +8 performance",
     experience: [
       {
         Stack: "Frontend/Design",  //Insert stack or technology you have experience in
@@ -173,7 +173,7 @@ if(currentLang == 'pt-br'){
   techStack = {
     title: "Proficiency",
     viewSkillBars: true, //Set it to true to show Proficiency Section
-    subTitle: "+10 arcana, -1 athletics, +10 investigation, +8 performace",
+    subTitle: "+10 arcana, -1 athletics, +10 investigation, +8 performance",
     experience: [
       {
         Stack: "Frontend/Design",  //Insert stack or technology you have experience in
@@ -197,7 +197,7 @@ var workExperiences = {};
 if(currentLang == 'pt-br'){
   workExperiences = {
     title: "Experiências",
-    subTitle: "Derrotei 18 goblins com uma bola de fogo. também consigo tacar ela em bugs.",
+    subTitle: "Derrotei 18 goblins com 1 bola de fogo. também consigo tacar ela em bugs.",
     viewExperiences: true, //Set it to true to show workExperiences Section
     experience: [
       {
